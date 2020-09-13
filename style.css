@@ -8,21 +8,13 @@ body{
 .nav{  
 	padding: 20px;
 	margin-bottom: 10px;
-}
-.nav a{
-	text-decoration: none;
-	color: #263238;
-	font-size: 1.5em;
-    color: white;
-}
-.nav img{
-	position: absolute;
-	top: 15px;
-	right: 5px;
+} 
+.nav img{ 
 	background: #eee;
 	padding: 10px;
-	border-radius: 10px;
+	border-radius: 0 20px 0 20px; 
 }
+
 
 nav img{
 	max-width: 100px;
@@ -37,17 +29,12 @@ nav img{
 	 background: #616161;
  }
 
- 
-main{
-	text-align: center;
-	flex: 50%;
-}
+  
 #codes{
    	padding: 10px ;
     height: 78vh; 
-    min-width: 100%;  
-    resize: none
- 	margin-right: 10px;
+    flex: 50%; 
+    resize: none; 
     background-color: rgb(40, 44, 52);
     color: white;
     border: none;
@@ -95,15 +82,9 @@ main{
   color: #616161;
   background:  #e0e0e0;
  } 
-
-#title-result{
-	padding: 10px;
-	border-bottom: 2px solid #424242;
-	margin: 8px 0;
-	font-weight: bold;
-}
+ 
  #result{
-	 max-width: 100% !important;
+	 max-width: 100% !important; 
      flex: 50%; 
 	 height: 78vh;
 	 overflow: auto;
@@ -111,6 +92,8 @@ main{
 	 margin-left: 10px;
 	
  }
+ 
+  
 
 
 

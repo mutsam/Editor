@@ -3,8 +3,7 @@ let codes  = document.getElementById('codes');
 let play   = document.getElementById('play');
 let changeA1 = document.getElementById('changeA1');  
 let changeA = document.getElementById('changeA'); 
-let result = document.getElementById('result');
-let namelogo = document.getElementById('namelogo');
+let result = document.getElementById('result'); 
 let headCon = document.getElementById('headCon');
 let alls = document.getElementById('all');  
 let img = document.getElementById('img');  
@@ -26,8 +25,7 @@ changeA.onclick = ()=>{
 	codes.style.color = '#424242';
 	img.style.background = 'none';
 	headCon.style.background = '#eeeeee';
-	alls.style.background = '#eeeeee';
-	namelogo.style.color = 'black';
+	alls.style.background = '#eeeeee'; 
 	changeA1.style.color = '#616161'; 
 	changeA.style.color = '#616161';
 	}else{
@@ -36,8 +34,7 @@ changeA.onclick = ()=>{
 	codes.style.color 	     = 'white';
 	img.style.background     = '#eee';
 	headCon.style.background = '#616161';
-	alls.style.background    = '#616161';
-	namelogo.style.color     = 'white';
+	alls.style.background    = '#616161'; 
 	changeA1.style.color     = '#e0e0e0'; 
 	changeA.style.color      = '#e0e0e0';
 	}
